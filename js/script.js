@@ -1,7 +1,7 @@
 
 
-var Player1 = {token:"X"}
-var Player2 = {token:"O"}
+var Player1 = {token:"X"};
+var Player2 = {token:"O"};
 var currentPlayer = Player1;
 
 
@@ -10,15 +10,15 @@ var currentPlayer = Player1;
 //top row
 var cell = document.getElementById("tl");
 cell.addEventListener("click", function(){
-cell.innerHTML = currentPlayer.token
+cell.innerHTML = currentPlayer.token;
 
 
 if(currentPlayer == Player1){
-  currentPlayer = Player2
+  currentPlayer = Player2;
 }
 
 else{
-  currentPlayer = Player1
+  currentPlayer = Player1;
 }
 
 checkForWinner();
@@ -26,29 +26,29 @@ checkForWinner();
 
 var cell2 = document.getElementById("tc");
 cell2.addEventListener("click", function() {
-cell2.innerHTML = currentPlayer.token
+cell2.innerHTML = currentPlayer.token;
 
 //toggling between x ando
 if(currentPlayer == Player1){
-  currentPlayer= Player2
+  currentPlayer= Player2;
 }
 else{
-  currentPlayer = Player1
+  currentPlayer = Player1;
 }
-console.log(cell2.innerHTML)
+console.log(cell2.innerHTML);
 checkForWinner();
 });
 
 
 var cell3 = document.getElementById("tr");
 cell3.addEventListener("click", function() {
-cell3.innerHTML = currentPlayer.token
+cell3.innerHTML = currentPlayer.token;
 
 if(currentPlayer == Player1){
-  currentPlayer= Player2
+  currentPlayer= Player2;
 }
 else{
-  currentPlayer = Player1
+  currentPlayer = Player1;
 }
 console.log("clicked");
 checkForWinner();
@@ -58,38 +58,38 @@ checkForWinner();
 //middle row
 var cell4 =document.getElementById("ml");
 cell4.addEventListener("click", function() {
-  cell4.innerHTML = currentPlayer.token
+  cell4.innerHTML = currentPlayer.token;
 
 if(currentPlayer == Player1){
-  currentPlayer= Player2
+  currentPlayer= Player2;
 }
 else{
-  currentPlayer = Player1
+  currentPlayer = Player1;
 }
 checkForWinner();
 });
 
 var cell5 =document.getElementById("mc");
 cell5.addEventListener("click", function() {
-  cell5.innerHTML = currentPlayer.token
+  cell5.innerHTML = currentPlayer.token;
 
   if(currentPlayer == Player1){
-  currentPlayer= Player2
+  currentPlayer= Player2;
 }
 else{
-  currentPlayer = Player1
+  currentPlayer = Player1;
 }
 checkForWinner();
 });
 var cell6 =document.getElementById("mr");
 cell6.addEventListener("click", function() {
-  cell6.innerHTML = currentPlayer.token
+  cell6.innerHTML = currentPlayer.token;
 
   if(currentPlayer == Player1){
-  currentPlayer= Player2
+  currentPlayer= Player2;
 }
 else{
-  currentPlayer = Player1
+  currentPlayer = Player1;
 }
 checkForWinner();
 });
@@ -97,38 +97,38 @@ checkForWinner();
 
 var cell7 =document.getElementById("bl");
 cell7.addEventListener("click", function() {
- cell7.innerHTML = currentPlayer.token
+ cell7.innerHTML = currentPlayer.token;
 
  if(currentPlayer == Player1){
-  currentPlayer= Player2
+  currentPlayer= Player2;
 }
 else{
-  currentPlayer = Player1
+  currentPlayer = Player1;
 }
 checkForWinner();
 });
 var cell8 =document.getElementById("bc");
 cell8.addEventListener("click", function() {
-  cell8.innerHTML = currentPlayer.token
+  cell8.innerHTML = currentPlayer.token;
 
    if(currentPlayer == Player1){
-  currentPlayer= Player2
+  currentPlayer= Player2;
 }
 else{
-  currentPlayer = Player1
+  currentPlayer = Player1;
 }
 checkForWinner();
 });
 
 var cell9 =document.getElementById("br");
 cell9.addEventListener("click", function() {
-  cell9.innerHTML = currentPlayer.token
+  cell9.innerHTML = currentPlayer.token;
 
    if(currentPlayer == Player1){
-  currentPlayer= Player2
+  currentPlayer= Player2;
 }
 else{
-  currentPlayer = Player1
+  currentPlayer = Player1;
 }
 checkForWinner();
 });
@@ -174,9 +174,9 @@ function checkForWinner(){
   // Top Row
   if (compareAndValidateSquares($("#tl"), $("#tc")) && compareAndValidateSquares($("#tl"),$("#tr"))) {
     if ($('#tl').text() === 'X') {
-      alert('Hooray. You won Mario!')
+      alert('Hooray. You won Mario!');
     } else {
-      alert('Congratulations DOnkeyKong you are Victorious!')
+      alert('Congratulations DOnkeyKong you are Victorious!');
     }
     boardReset();
   }
@@ -184,27 +184,27 @@ function checkForWinner(){
   // Middle Row
   if (compareAndValidateSquares($("#ml"), $("#mc")) && compareAndValidateSquares($("#ml"),$("#mr"))) {
     if ($('#ml').text() === 'X') {
-      alert("Win for team Mario")
+      alert("Win for team Mario");
     } else {
-      alert('Tean DOnkeyKong won!')
+      alert('Tean DOnkeyKong won!');
     }
     boardReset();
   }
   //bottom row
 if (compareAndValidateSquares($("#bl"), $("#bc")) && compareAndValidateSquares($("#bl"),$("#br"))) {
     if ($('#bl').text() === 'X') {
-      alert('Hey it is Mario')
+      alert('Hey it is Mario');
     } else {
-      alert('Donkey Kong for the Win!')
+      alert('Donkey Kong for the Win!');
     }
     boardReset();
   }
 //left column
 if (compareAndValidateSquares($("#tl"), $("#ml")) && compareAndValidateSquares($("#tl"),$("#bl"))) {
     if ($('#tl').text() === 'X') {
-      alert('Victory is yours Mario')
+      alert('Victory is yours Mario');
     } else {
-      alert('DOnkeyKong loves the sweet smell of Victory')
+      alert('DOnkeyKong loves the sweet smell of Victory');
     }
     boardReset();
   }
@@ -212,27 +212,27 @@ if (compareAndValidateSquares($("#tl"), $("#ml")) && compareAndValidateSquares($
 //middle column
 if (compareAndValidateSquares($("#tc"), $("#mc")) && compareAndValidateSquares($("#tc"),$("#bc"))) {
     if ($('#tc').text() === 'X') {
-      alert('Mario Wins')
+      alert('Mario Wins');
     } else {
-      alert('Rainbows and butterflies for DOnkeyKong')
+      alert('Rainbows and butterflies for DOnkeyKong');
     }
     boardReset();
   }
   //right column
 if (compareAndValidateSquares($("#tr"), $("#mr")) && compareAndValidateSquares($("#tr"),$("#br"))) {
     if ($('#tr').text() === 'X') {
-      alert('The force was with you Mario')
+      alert('The force was with you Mario');
     } else {
-      alert('The odds were in your favor today DOnkeyKong')
+      alert('The odds were in your favor today DOnkeyKong');
     }
     boardReset();
   }
 //diagonal left
 if (compareAndValidateSquares($("#tl"), $("#mc")) && compareAndValidateSquares($("#tl"),$("#br"))) {
     if ($('#tl').text() === 'X') {
-      alert('Yippee Mario won')
+      alert('Yippee Mario won');
     } else {
-      alert('Yippee DOnkeyKong Won')
+      alert('Yippee DOnkeyKong Won');
     }
     boardReset();
   }
@@ -240,19 +240,19 @@ if (compareAndValidateSquares($("#tl"), $("#mc")) && compareAndValidateSquares($
 
   if (compareAndValidateSquares($("#tr"), $("#mc")) && compareAndValidateSquares($("#tr"),$("#bl"))) {
     if ($('#tr').text() === 'X') {
-      alert('Player 1 wins')
+      alert('Player 1 wins');
     } else {
-      alert('Player 2 wins')
+      alert('Player 2 wins');
     }
     boardReset();
   }
 
 
-};
+}
 
 
 function boardReset() {
-  $("td").html("")
+  $("td").html("");
 }
 
 
@@ -269,5 +269,3 @@ function boardReset() {
 
 
 // });
-
-
