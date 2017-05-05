@@ -1,0 +1,227 @@
+
+
+body {
+  background-image: url(http://wallpaperbackgrounds.com/Content/wallpapers/video%20game/mario/36193-49420.jpg);
+}
+
+header{
+  text-align: center;
+  color:red;
+  font-family: arial-bold;
+  font-size: 100px;
+
+}
+.Opponents{
+  color: red;
+}
+.button{
+  background-color: red;
+}
+.player1b{
+  background-color: red;
+}
+.player2b{
+  background-color: red;
+}
+
+.Opponents{
+  background-color: red;
+  font-size: 20px;
+}
+#board {
+  margin: 0 auto;
+  margin-top: 50px;
+  border-color: black;
+  border-width: 20px;
+  background-color: rgb(0,0,0);
+  width: 600px;
+  height: 600px;
+  align-content: right;
+  margin-bottom: 100px;
+  }
+
+#board tr td {
+  width: 150px;
+  height: 100px;
+  padding: 0;
+  border: 20px dotted red;
+  font-family: bold Arial;
+  font-size: 50px;
+  text-align: center;
+  background-image: url(http://www.nintendojo.com/wp-content/uploads/2010/07/scrn_marioVsDK2-04.jpg);
+  opacity: .40;
+}
+
+.player1 {
+  display: block;
+  height:250px;
+  width:200px;
+  margin-bottom: 300px;
+  margin-top: 50px;
+  border: dotted red;
+  border-width: 20px;
+
+}
+.player2 {
+  height: 250px;
+  width: 200px;
+  border: dotted red;
+  border-width: 20px;
+}
+
+/*.button1{
+  background-color: solid yellow;
+  height:50px
+  width:25px;
+  position: relative;
+  color: red;
+}*/
+
+
+/*.button2{
+  color:red;
+  background-color: solid red;
+  height: 50px;
+  width:50px;
+  position: relative;
+}
+
+
+.button3{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}
+.button4{
+  background-color: solid red;
+  height: 25px;
+  width:100;
+  float: left;
+}
+
+.button5{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}
+
+.button6{
+  background-color: solid yellow;
+  height: 50px;
+  width:25px;
+  float: left;
+}
+
+.button7{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}
+
+.button8{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}
+
+.button9{
+  background-color: solid yellow;
+  height: 50px;
+  width:25px;
+  float: left;
+}
+
+.button10{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}
+.button11{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}.button12{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}.button13{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}.button14{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}.button15{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}.button16{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}.button17{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}.button18{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}.button19{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}.button20{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}.button21{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}.button22{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}
+.button23{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}
+.button24{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}.button25{
+  background-color: solid red;
+  height: 50px;
+  width:150px;
+  float: left;
+}.button26{
+  background-color: solid red;
+  height: 50px;
+  width:25px;
+  float: left;
+}
+*/
